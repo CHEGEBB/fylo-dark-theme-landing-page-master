@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    width:400px;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upper{
+    background-color: hsl(217, 28%, 15%);
+}
+.access img{
+    width: 500px;
+    height: 400px;
+}
+.intro h1{
+    width: 600px;
+    justify-content: center;
+}
+.intro p{
+    width: 490px;
+    justify-content: center;
+    margin-left: 40px;
+}
+.intro{
+    width: 490px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.function{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+.anyicon img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+
+}
+.anywhere{
+    width: 390px;
+    text-align: center;
+    padding: 2rem 2rem;
+
+}
+.secicon img{
+    width: 100px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.security{
+    width: 350px;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-right: 100px;
+
+
+}
+.functionality{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 10px;
+  
+}
+.functionality2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 10px;
+}
+.realtime{
+    width: 390px;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+.relicon img{
+    width: 140px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.file{
+    width: 350px;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-right: 100px;
+}
+.ficon img{
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.productivity{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 70px;
+}
+.productivity img{
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.productive{
+    width: 500px;
+    padding: 2rem 2rem;
+    margin-right: 100px;
+    height: 250px;
+    
+}
+.productive h1{
+    
+    width: 300px;
+
+}
+.works{
+    text-decoration: underline hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+    
+}
+.fylo img{
+    width: 20px;
+    height: 20px;
+    margin-left: -160px;
+}
+.special{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 10px;
+}
+.special :hover{
+    cursor: pointer, hsl(176, 68%, 64%);;
+    color: hsl(176, 68%, 64%);;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem;
+    gap: 50px;
+    margin-top: 70px;
+}
+.quotes img{
+margin-right: -100px;
+margin-top: -40px;
+}
+.satish{
+    width: 300px;
+    background-color: hsl(219, 30%, 18%);
+    height: 150px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+.patel{
+    display: flex;
+    flex-direction: column;
+}
+.prof1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 15px;
+}
+.prof1 img{
+   border-radius: 50%;
+   width: 30px;
+    height: 30px;
+}
+.bruce{
+    width: 300px;
+    background-color: hsl(219, 30%, 18%);
+    height: 150px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+.mckenzie{
+    display: flex;
+    flex-direction: column;
+}
+.brucepic img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.profile2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 15px;
+}
+.iva{
+    width: 300px;
+    background-color: hsl(219, 30%, 18%);
+    height: 150px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+.boyd{
+    display: flex;
+    flex-direction: column;
+}
+.prof3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 15px;
+}
+.ivapic img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.get{
+    background-color:hsl(219, 30%, 18%);
+    width: 620px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-left: 300px;
+    border-radius: 12px;
+    margin-top: -180px;
+    height: 200px;
+}
+.holder{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+
+}
+.placeholder{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    padding-left: 30px;
+    
+}
+button{
+    height: 37px;
+    width: 150px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: hsl(176, 68%, 64%);
+    
+}button:hover{
+    background-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+.down{
+    background-color: hsl(216, 53%, 9%);
+    padding: 2rem 2rem;
+    margin-top: 300px;
+    height: 300px;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 2rem;
+    margin-top:50px;
+    width: 100%;
+}
+.lorem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ipsum{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.us{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.socials :hover{
+    cursor: pointer;
+}
+
+
+/* mobile design */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: hsl(218, 28%, 13%);
+        color: hsl(0, 0%, 100%);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        width: 320px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        margin-right: 20px;
+        gap: 3px;
+
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        width: 90px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .access img{
+        width: 300px;
+        height: 200px;
+    }
+    .intro h1{
+        width: 300px;
+        justify-content: center;
+    }
+    .intro p{
+        width: 300px;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .intro{
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+    .function{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    .anyicon img{
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 150px;
+    
+    
+    }
+    .anywhere{
+        width: 300px;
+        text-align: center;
+        padding: 2rem 2rem;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .anywhere p{
+        width: 260px;
+        justify-content: center;
+        margin-left: 0px;
+        text-align: center;
+        margin-left: 20px;
+}
+    .secicon img{
+        width: 100px;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 230px;
+    
+    }
+    .security{
+        width: 300px;
+        text-align: center;
+        padding: 2rem 2rem;
+        /* margin-right: 100px; */
+        margin-left: 100px;
+    
+    
+    }
+    .security p{
+        width: 260px;
+        justify-content: center;
+        margin-left: 0px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .functionality{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem;
+        gap: 10px;
+      
+    }
+    .functionality2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem;
+        gap: 10px;
+    }
+    .realtime{
+        width: 300px;
+        text-align: center;
+    }
+    .realtime p{
+        width: 260px;
+        justify-content: center;
+        margin-left: 0px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .relicon img{
+        width: 140px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 120px;
+    
+    }
+    .file{
+        width: 300px;
+        text-align: center;
+        padding: 2rem 2rem;
+        margin-right: 100px;
+        margin-left: 60px;
+    }
+    .file p{
+        width: 260px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 30px;
+       
+    }
+    .ficon img{
+        width: 150px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 160px;
+    
+    }
+    .productivity{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 70px;
+        width: 300px;
+    }
+    .productivity img{
+        width: 300px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .productive{
+        width: 300px;
+        padding: 2rem 2rem;
+        margin-right: 100px;
+        height: 250px;
+        
+    }
+    .productive h1{
+        
+        width: 260px;
+        justify-content: center;
+        margin-left: 0px;
+        text-align: center;
+        margin-left: 20px;
+    
+    }
+    .productive p{
+        width: 260px;
+        justify-content: center;
+        margin-left: 0px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .works{
+        text-decoration: underline hsl(176, 68%, 64%);
+        color: hsl(176, 68%, 64%);
+        
+    }  
+    .fylo img{
+        width: 20px;
+        height: 20px;
+        margin-left: -75px;
+    }
+    .special{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem;
+        gap: 10px;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 2rem;
+        gap: 50px;
+        margin-top: 70px;
+    }
+    .quotes img{
+    margin-right: -100px;
+    margin-top: -300px;
+    }   
+    .satish{
+        width: 200px;
+        background-color: hsl(219, 30%, 18%);
+        height: 150px;
+        padding: 2rem 2rem;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .patel{
+        display: flex;
+        flex-direction: column;
+    }
+    .prof1{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        gap: 15px;
+    }
+    .prof1 img{
+       border-radius: 50%;
+       width: 30px;
+        height: 30px;
+    }
+    .bruce{
+        width: 200px;
+        background-color: hsl(219, 30%, 18%);
+        height: 150px;
+        padding: 2rem 2rem;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .mckenzie{
+        display: flex;
+        flex-direction: column;
+    }
+    .brucepic img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    .profile2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        gap: 15px;
+    }
+    .iva{
+        width: 200px;
+        background-color: hsl(219, 30%, 18%);
+        height: 150px;
+        padding: 2rem 2rem;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .boyd{
+        display: flex;
+        flex-direction: column;
+    }
+    .prof3{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        gap: 15px;
+    }
+    .ivapic img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    .get{
+        background-color:hsl(219, 30%, 18%);
+        width: 200px;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+        padding: 2rem 2rem;
+        margin-left: 20px;
+        border-radius: 12px;
+        margin-top: -180px;
+        height: 300px;
+    }
+    .holder{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    
+    }
+    .placeholder{
+        width: 130px;
+        height: 30px;
+        border-radius: 20px;
+        border: 0px;
+        padding-left: 30px;
+        
+    }
+    button{
+        height: 37px;
+        width: 150px;
+        border-radius: 20px;
+        border: 0px;
+        background-color: hsl(176, 68%, 64%);
+
+    }
+
+    .down{
+        background-color: hsl(216, 53%, 9%);
+        padding: 2rem 2rem;
+        margin-top: 300px;
+        height: 800px;
+        
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 2rem;
+        margin-top:50px;
+        gap: 15px;
+    }
+    .lorem{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .ipsum{
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .us{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .phone{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
