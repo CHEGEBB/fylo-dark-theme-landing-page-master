@@ -6,6 +6,7 @@ body{
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     overflow:hidden !important;
+    overflow-x: hidden !important;
 }
 h1{
     font-family: 'Raleway', sans-serif;
@@ -357,6 +358,10 @@ button{
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+.socials img{
+    width:50px;
+    height:50px;
 }
 .socials :hover{
     cursor: pointer;
