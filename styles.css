@@ -5,6 +5,7 @@ body{
     background-color: hsl(218, 28%, 13%);
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
+    overflow:hidden !important;
 }
 h1{
     font-family: 'Raleway', sans-serif;
